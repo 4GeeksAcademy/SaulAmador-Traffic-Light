@@ -10,3 +10,43 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.poste {
+  width: 30px;
+  height: 100px;
+  background-color: #000;
+}
+
+.traficLight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  width: 150px;
+  background-color: #000;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.red,
+.yellow,
+.green {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 10px 0;
+}
+
+.red  {
+    background-color: red;
+}
+
+.yellow  {
+    background-color: yellow;
+}
+
+.green  {
+    background-color: green;
+}
+.light {
+    box-shadow: 0 0 40px 20px rgb(243, 254, 85);
+}
